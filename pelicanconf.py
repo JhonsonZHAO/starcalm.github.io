@@ -26,3 +26,5 @@ DEFAULT_PAGINATION = False
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 THEME = '/Users/apple/pelican-themes/bootstrap2'
+OUTPUT_PATH = 'blog/'
+CSS_FILE = '/User/apple/starcalm/blog/theme/css'

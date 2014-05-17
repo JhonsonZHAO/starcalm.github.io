@@ -95,6 +95,11 @@ by <a class="url fn" href="/author/starcalm.html">starcalm</a>
             
                 <li><a href="/">Archives</a>
                 <li><a href="/tags.html">Tags</a>
+                    <ul class="tagcloud">
+                        {% for tag in tag_cloud %}
+                            <li class="tag-{{ tag.1 }}"><a href="{{ SITEURL }}/{{ tag.0.url }}">{{ tag.0 }}</a></li>
+                        {% endfor %}
+                    </ul>
                 <li><a href="/" rel="alternate">Atom feed</a></li>
             </ul>
             </div>
